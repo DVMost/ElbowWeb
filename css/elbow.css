@@ -1,0 +1,342 @@
+* {
+	font-family: sans-serif;
+	list-style: none;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.mini {
+	width: 40px;
+	height: 40px;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	display: block;
+	padding: 10px 10px;	
+}
+#contenedor_cabecera {
+	width: 1920px;
+	height: 142px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#cassette_cabecera {
+	background-image: url(../img/cassette_barra.png);
+	background-repeat: no-repeat;
+	width: 2000px;
+	height: 142px;
+	position: fixed;
+	z-index: 10;
+}
+#menu {
+	width: 1000px;
+	height: 100px;
+	margin-left: 42px;
+	top: 142px;
+	left: 455px;
+	position: absolute;
+}
+#menu > li {
+	float: left;
+}
+#boton_que_es {
+	background-image: url(../img/boton_que_es.png);
+	display: block;
+	width: 232px;
+	height: 55px;
+	left: 455px;
+	float: left;
+}
+#boton_que_es:hover {
+	background-image: url(../img/boton_que_es_pressed.png);
+	display: block;
+	width: 232px;
+	height: 28px;
+}
+#boton_como {
+	background-image: url(../img/boton_como.png);
+	display: block;
+	width: 232px;
+	height: 55px;
+	float: left;
+}
+#boton_como:hover {
+	background-image: url(../img/boton_como_pressed.png);
+	display: block;
+	width: 226px;
+	height: 28px;
+}
+#boton_quienes {
+	background-image: url(../img/boton_quienes.png);
+	display: block;
+	width: 232px;
+	height: 55px;
+	float: left;
+}
+#boton_quienes:hover {
+	background-image: url(../img/boton_quienes_pressed.png);
+	display: block;
+	width: 232px;
+	height: 28px;
+}
+#boton_quiero {
+	background-image: url(../img/boton_quiero.png);
+	display: block;
+	width: 232px;
+	height: 55px;
+	float: left;
+}
+#boton_quiero:hover {
+	background-image: url(../img/boton_quiero_pressed.png);
+	display: block;
+	width: 232px;
+	height: 28px;
+}
+#menu li a:hover {}
+#menu li:hover > ul{display: block;}
+
+#contenedor_0 {
+	width: 1800px;
+	height: 5000px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+#foto_intro {
+	background-image: url(../img/intro_1.png);
+	background-repeat: no-repeat;
+	width: 2000px;
+	height: 1000px;
+	top: -100px;
+	left: 400px;
+	position: absolute;
+}
+#contenedor_que_es {
+	background-color: #345959;
+	width: 2000px;
+	height: 800px;
+	top: 800px;
+	position: absolute;
+}
+#contenedor_que_es:hover > #que_es_der{
+	transform: translate(-100px);
+	transition: 1.5s;
+}
+#que_es_centro {
+	width: 70%;
+	height: 800px;
+	float: left;
+}
+#icono_1 {
+	margin-top: 150px;
+	margin-left: 50px;
+	margin-right: 20px;
+	position: absolute;
+	float: left;
+}
+#icono_2 {
+	margin-top: 150px;
+	margin-left: 250px;
+	margin-right: 20px;
+	position: absolute;
+	float: left;
+}
+#icono_3 {
+	margin-top: 150px;
+	margin-left: 430px;
+	margin-right: 20px;
+	position: absolute;
+	float: left;
+}
+@font-face {
+	font-family: Retrotown;
+		src: url(../font/Retrotown.ttf);
+}
+#contenedor_que_es p{
+	color: #1a1a1a;
+	font-family: Retrotown;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: left;
+	line-height: 80px;
+	margin-left: 100px;
+}
+#que_es_texto_1{
+	background-color: #ffec49;
+	width: 1200px;
+	height: 80px;
+	margin-top: 150px;
+	margin-left:80px;
+}
+#que_es_texto_2 {
+	background-color: #ffec49;
+	width: 1200px;
+	height: 80px;
+	margin-top: 150px;
+	margin-left: 280px;
+}
+#que_es_texto_3 {
+	background-color: #ffec49;
+	width: 1200px;
+	height: 80px;
+	margin-top: 150px;
+	margin-left: 460px;
+}
+#que_es_der {
+	background-image: url(../img/mano_2.png);
+	background-repeat: no-repeat;
+	width: 30%;
+	height: 800px;
+	transition: transform 1.5s;
+	float: left;
+}
+#transicion_1{
+	background: #ffec49;
+	width: 3000px;
+	height: 400px;
+	top: 1600px;
+	left: -600px;
+	position: absolute;
+}
+#como_funciona{
+	background-image: url(../img/como_funciona.png);
+	background-repeat: no-repeat;
+	width: 3000px;
+	height: 800px;
+	top: 2000px;
+	left: -600px;
+	position: absolute;
+}
+#transicion_2{
+	background: #ffec49;
+	width: 3000px;
+	height: 400px;
+	top: 2800px;
+	left: -600px;
+	position: absolute;
+}
+#transicion_2_img{
+	background-image: url(../img/como_funciona.png);
+	width: 3000px;
+	height: 400px;
+	top: 2800px;
+	left: -600px;
+	position: absolute;
+}
+#quienes {
+	width: 3000px;
+	left: -600px;
+	top: 3200px;
+	position: absolute;
+}
+.icon:hover {
+	border: 5px solid white;
+	border-radius: 50%;
+	transform: scale(1.2, 1.2);
+}
+#facebook {
+	background-image: url(../img/facebook_icon.png);
+	width: 150px;
+	height: 150px;
+	top: 100px;
+	left: 1200px;
+	position: absolute;
+}
+#twitter {
+	background-image: url(../img/twitter_icon.png);
+	width: 150px;
+	height: 150px;
+	top: 100px;
+	left: 1430px;
+	position: absolute;
+}
+#instagram {
+	background-image: url(../img/instagram_icon.png);
+	width: 150px;
+	height: 150px;
+	top: 100px;
+	left: 1660px;
+	position: absolute;
+}
+#transicion_3{
+	background: #ffec49;
+	width: 3000px;
+	height: 400px;
+	top: 3600px;
+	left: -600px;
+	position: absolute;
+}
+#transicion_3_img {
+	background-image: url(../img/elbow.png);	
+	width: 758px;
+	height: 290px;
+	top: 50px;
+	left: 1100px;
+	position: absolute;
+	z-index: 3;
+}
+#quiero {
+	background: #11df9e;
+	width: 3000px;
+	height: 800px;
+	left: -600px;
+	top: 4000px;
+	position: absolute;
+}
+#mano_apuntando {
+	background-image: url(../img/mano_apuntando.gif);
+	background-repeat: no-repeat;
+	width: 600px;
+	height: 600px;
+	top: 277px;
+	left: 800px;
+	position: absolute;
+}
+#mascara {
+	background-image: url(../img/mascara_1.png);
+	background-repeat: no-repeat;
+	width: 702px;
+	height: 437px;
+	top: 277px;
+	left: 1475px;
+	position: absolute;
+}
+#formulario {
+	top: 350px;
+	left: 1921px;
+	position: absolute;
+}
+#nombre {
+	top: 28px;
+	position: absolute;
+}
+#apellido {
+	top: 89px;
+	position: absolute;
+}
+#email {
+	top: 151px;
+	position: absolute;
+}
+#reset {
+	top: 207px;
+	left: -62px;
+	position: absolute;
+}
+#send {
+	top: 207px;
+	left: 101px;
+	position: absolute;
+}
+#foot {
+	background: #ff4040;
+	width: 4000px;
+	height: 200px;
+	left: -1100px;
+	top: 4800px;
+	position: absolute;
+}
